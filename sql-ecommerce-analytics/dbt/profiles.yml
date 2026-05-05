@@ -1,0 +1,12 @@
+sql_ecommerce_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: your_postgres_username
+      password: your_postgres_password
+      port: 5432
+      dbname: olist
+      schema: public
+      threads: 4

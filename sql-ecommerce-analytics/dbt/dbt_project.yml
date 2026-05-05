@@ -1,0 +1,14 @@
+name: 'sql_ecommerce_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'sql_ecommerce_analytics'
+
+model-paths: ["models"]
+
+models:
+  sql_ecommerce_analytics:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
